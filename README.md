@@ -1,3 +1,3 @@
 # zoo-storage
 
-E-commerce Spring Boot project, using microservice architecture.
+Storage management microservice for E-commerce using Spring Boot.
