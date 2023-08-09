@@ -1,7 +1,7 @@
 package com.tinqin.storage.persistence.model;
 
 import jakarta.persistence.*;
-import java.math.BigDecimal;
+import java.sql.Timestamp;
 import java.util.UUID;
 import lombok.*;
 
@@ -11,17 +11,15 @@ import lombok.*;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "storages")
-public class Storage extends BaseEntity {
-
+@Table(name = "orders")
+public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    @Column(name = "storage_id")
-    private UUID id;
+    @Column(name = "order_id", nullable = false)
+    private UUID orderId;
 
-    private UUID itemId;
+    private Timestamp createDate;
 
-    private Integer quantity;
+    private UUID userId;
 
-    private BigDecimal price;
 }

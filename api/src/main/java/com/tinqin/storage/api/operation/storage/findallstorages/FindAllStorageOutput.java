@@ -2,7 +2,6 @@ package com.tinqin.storage.api.operation.storage.findallstorages;
 
 import com.tinqin.storage.api.base.ProcessorOutput;
 import com.tinqin.storage.api.operation.storage.StorageBaseDTO;
-
 import java.util.Set;
 import lombok.Builder;
 import lombok.Getter;

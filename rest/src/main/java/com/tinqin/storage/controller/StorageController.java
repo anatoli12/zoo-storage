@@ -46,13 +46,13 @@ public class StorageController {
             FindStorageByItemIdInput.builder().itemId(id).build()));
   }
 
-  @PatchMapping("/price")
+  @PutMapping("/price")
   public ResponseEntity<ChangeStoragePriceOutput> updatePrice(
       @RequestBody ChangeStoragePriceInput request) {
     return ResponseEntity.ok(storageChangePriceService.process(request));
   }
 
-  @PatchMapping("/quantity")
+  @PutMapping("/quantity")
   public ResponseEntity<ChangeStorageQuantityOutput> addQuantity(
       @RequestBody ChangeStorageQuantityInput request) {
     return ResponseEntity.ok(storageChangeQuantityService.process(request));
