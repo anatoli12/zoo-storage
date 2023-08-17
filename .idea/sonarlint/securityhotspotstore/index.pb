@@ -3,8 +3,6 @@
 core/.gitignore,8\f\8f16fff20c9abaf19044c2da043c6677c1119e28
 >
 api/.gitignore,2\b\2bda069e2c88cd81866580088f3a7bec6b54264c
-?
-rest/.gitignore,b\5\b516dff548d4945de55e43a3376e54cc8214bb86
 Å
 Q.idea/sonarlint/securityhotspotstore/2/b/2bda069e2c88cd81866580088f3a7bec6b54264c,4\a\4a7d923827a6ab4f067d6961e340b36ae6c265c3
 w
