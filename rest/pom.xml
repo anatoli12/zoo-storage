@@ -7,11 +7,13 @@
         <artifactId>storage</artifactId>
         <version>0.0.2-SNAPSHOT</version>
     </parent>
-    <groupId>com.tinqin.storage.rest</groupId>
     <artifactId>rest</artifactId>
     <version>0.0.2-SNAPSHOT</version>
     <name>rest</name>
     <description>rest</description>
+    <properties>
+        <java.version>17</java.version>
+    </properties>
     <dependencies>
 
         <dependency>
@@ -48,13 +50,13 @@
     </dependencies>
 
     <build>
-        <finalName>tinqin.storage</finalName>
+        <finalName>tinqin-storage</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.tinqin.storage.rest.ZooTradeStorageApplication.class</mainClass>
+                    <mainClass>com.tinqin.storage.ZooTradeStorageApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>

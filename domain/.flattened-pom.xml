@@ -47,6 +47,12 @@
       <artifactId>feign-form-spring</artifactId>
       <version>3.8.0</version>
       <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>commons-fileupload</groupId>
+          <artifactId>commons-fileupload</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>io.github.openfeign</groupId>
